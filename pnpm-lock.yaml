@@ -3,8 +3,8 @@ lockfileVersion: 5.3
 specifiers:
   '@rollup/plugin-commonjs': 20.0.0
   '@rollup/plugin-node-resolve': 13.0.4
-  autopublish-template: 20.0.20
   chai: 4.3.4
+  chai-as-promised: ^7.1.1
   concurrently: 6.2.0
   husky: 7.0.1
   karma: 6.3.4
@@ -22,8 +22,8 @@ specifiers:
 devDependencies:
   '@rollup/plugin-commonjs': 20.0.0_rollup@2.55.1
   '@rollup/plugin-node-resolve': 13.0.4_rollup@2.55.1
-  autopublish-template: 20.0.20
   chai: 4.3.4
+  chai-as-promised: 7.1.1_chai@4.3.4
   concurrently: 6.2.0
   husky: 7.0.1
   karma: 6.3.4
@@ -434,10 +434,6 @@ packages:
     resolution: {integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=}
     dev: true
 
-  /autopublish-template/20.0.20:
-    resolution: {integrity: sha512-5HHVg+HBuBE0KLPIb/Moca31u02qLE7kAXV7O/NIikxocVUlcNCoI2tALnih09h/FL/g1eyg4m6ykg7z3h9Jsg==}
-    dev: true
-
   /balanced-match/1.0.0:
     resolution: {integrity: sha1-ibTRmasr7kneFk6gK4nORi1xt2c=}
     dev: true
@@ -581,6 +577,15 @@ packages:
   /camelcase/6.2.0:
     resolution: {integrity: sha512-c7wVvbw3f37nuobQNtgsgG9POC9qMbNuMQmTCqZv23b6MIz0fcYpBiOlv9gEN/hdLdnZTDQhg6e9Dq5M1vKvfg==}
     engines: {node: '>=10'}
+    dev: true
+
+  /chai-as-promised/7.1.1_chai@4.3.4:
+    resolution: {integrity: sha512-azL6xMoi+uxu6z4rhWQ1jbdUhOMhis2PvscD/xjLqNMkv3BPPp2JyyuTHOrf9BOosGpNQ11v6BKv/g57RXbiaA==}
+    peerDependencies:
+      chai: '>= 2.1.2 < 5'
+    dependencies:
+      chai: 4.3.4
+      check-error: 1.0.2
     dev: true
 
   /chai/4.3.4:

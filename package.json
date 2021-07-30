@@ -1,7 +1,7 @@
 {
-  "name": "@esm-bundle/autopublish-template",
-  "version": "20.0.20",
-  "description": "Repo to test esm-bundle's automatic publishing",
+  "name": "@esm-bundle/chai-as-promised",
+  "version": "0.0.0-unpublished.0",
+  "description": "Extends Chai with assertions about promises.",
   "main": "index.js",
   "module": "esm/index.js",
   "type": "module",
@@ -24,22 +24,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/chai-as-promised.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/chai-as-promised/issues"
   },
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/chai-as-promised#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "20.0.0",
     "@rollup/plugin-node-resolve": "13.0.4",
-    "autopublish-template": "20.0.20",
     "chai": "4.3.4",
+    "chai-as-promised": "^7.1.1",
     "concurrently": "6.2.0",
     "husky": "7.0.1",
     "karma": "6.3.4",

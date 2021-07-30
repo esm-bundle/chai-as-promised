@@ -1,4 +1,4 @@
-describe("@esm-bundle/autopublish-template", () => {
+describe("@esm-bundle/chai-as-promised", () => {
   it("can load the ESM bundle", () => {
     return import("/base/esm/index.js");
   });
