@@ -37,7 +37,7 @@
   "homepage": "https://github.com/esm-bundle/chai-as-promised#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "21.0.0",
-    "@rollup/plugin-node-resolve": "13.0.5",
+    "@rollup/plugin-node-resolve": "13.0.6",
     "chai": "4.3.4",
     "chai-as-promised": "7.1.1",
     "concurrently": "6.3.0",
