@@ -7,7 +7,7 @@ specifiers:
   chai-as-promised: 7.1.1
   concurrently: 7.0.0
   husky: 7.0.4
-  karma: 6.3.13
+  karma: 6.3.14
   karma-firefox-launcher: 2.1.2
   karma-jasmine: 4.0.1
   mocha: 9.2.0
@@ -26,9 +26,9 @@ devDependencies:
   chai-as-promised: 7.1.1_chai@4.3.6
   concurrently: 7.0.0
   husky: 7.0.4
-  karma: 6.3.13
+  karma: 6.3.14
   karma-firefox-launcher: 2.1.2
-  karma-jasmine: 4.0.1_karma@6.3.13
+  karma-jasmine: 4.0.1_karma@6.3.14
   mocha: 9.2.0
   pinst: 2.1.6
   prettier: 2.5.1
@@ -1722,18 +1722,18 @@ packages:
       which: 2.0.2
     dev: true
 
-  /karma-jasmine/4.0.1_karma@6.3.13:
+  /karma-jasmine/4.0.1_karma@6.3.14:
     resolution: {integrity: sha512-h8XDAhTiZjJKzfkoO1laMH+zfNlra+dEQHUAjpn5JV1zCPtOIVWGQjLBrqhnzQa/hrU2XrZwSyBa6XjEBzfXzw==}
     engines: {node: '>= 10'}
     peerDependencies:
       karma: '*'
     dependencies:
       jasmine-core: 3.6.0
-      karma: 6.3.13
+      karma: 6.3.14
     dev: true
 
-  /karma/6.3.13:
-    resolution: {integrity: sha512-64lbtHBnM/sG7XKvitSQVlImKYNugyjw4K2e8cZYrlZm0GwoWrfsrkzgS/KWY/r3+fVM/2xvT/JN6MyfdttxLw==}
+  /karma/6.3.14:
+    resolution: {integrity: sha512-SDFoU5F4LdosEiUVWUDRPCV/C1zQRNtIakx7rWkigf7R4sxGADlSEeOma4S1f/js7YAzvqLW92ByoiQptg+8oQ==}
     engines: {node: '>= 10'}
     hasBin: true
     dependencies:
