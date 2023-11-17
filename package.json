@@ -2,7 +2,7 @@
   "name": "@esm-bundle/chai-as-promised",
   "version": "0.0.0-unpublished.0",
   "description": "Extends Chai with assertions about promises.",
-  "main": "index.js",
+  "main": "esm/index.js",
   "module": "esm/index.js",
   "type": "module",
   "scripts": {
