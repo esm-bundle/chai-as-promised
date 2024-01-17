@@ -42,8 +42,8 @@ devDependencies:
     specifier: 3.2.4
     version: 3.2.4
   pretty-quick:
-    specifier: 3.3.0
-    version: 3.3.0(prettier@3.2.4)
+    specifier: 3.3.1
+    version: 3.3.1(prettier@3.2.4)
   release-it:
     specifier: 17.0.1
     version: 17.0.1
@@ -3040,8 +3040,8 @@ packages:
     hasBin: true
     dev: true
 
-  /pretty-quick@3.3.0(prettier@3.2.4):
-    resolution: {integrity: sha512-jjGAXpGvKTQj4Wses5yfEz4pBJHWX604iL4RVGwIgZyh0XOdoFW3difW0iv8zuWU0MUEuP3dI60FKoXK35J9TQ==}
+  /pretty-quick@3.3.1(prettier@3.2.4):
+    resolution: {integrity: sha512-3b36UXfYQ+IXXqex6mCca89jC8u0mYLqFAN5eTQKoXO6oCQYcIVYZEB/5AlBHI7JPYygReM2Vv6Vom/Gln7fBg==}
     engines: {node: '>=10.13'}
     hasBin: true
     peerDependencies:
