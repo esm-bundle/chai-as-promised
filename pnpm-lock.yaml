@@ -39,11 +39,11 @@ devDependencies:
     specifier: 3.0.0
     version: 3.0.0
   prettier:
-    specifier: 3.2.3
-    version: 3.2.3
+    specifier: 3.2.4
+    version: 3.2.4
   pretty-quick:
     specifier: 3.3.0
-    version: 3.3.0(prettier@3.2.3)
+    version: 3.3.0(prettier@3.2.4)
   release-it:
     specifier: 17.0.1
     version: 17.0.1
@@ -3034,13 +3034,13 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier@3.2.3:
-    resolution: {integrity: sha512-QNhUTBq+mqt1oH1dTfY3phOKNhcDdJkfttHI6u0kj7M2+c+7fmNKlgh2GhnHiqMcbxJ+a0j2igz/2jfl9QKLuw==}
+  /prettier@3.2.4:
+    resolution: {integrity: sha512-FWu1oLHKCrtpO1ypU6J0SbK2d9Ckwysq6bHj/uaCP26DxrPpppCLQRGVuqAxSTvhF00AcvDRyYrLNW7ocBhFFQ==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
 
-  /pretty-quick@3.3.0(prettier@3.2.3):
+  /pretty-quick@3.3.0(prettier@3.2.4):
     resolution: {integrity: sha512-jjGAXpGvKTQj4Wses5yfEz4pBJHWX604iL4RVGwIgZyh0XOdoFW3difW0iv8zuWU0MUEuP3dI60FKoXK35J9TQ==}
     engines: {node: '>=10.13'}
     hasBin: true
@@ -3053,7 +3053,7 @@ packages:
       mri: 1.2.0
       picocolors: 1.0.0
       picomatch: 3.0.1
-      prettier: 3.2.3
+      prettier: 3.2.4
       tslib: 2.6.2
     dev: true
 
