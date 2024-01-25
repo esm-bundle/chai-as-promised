@@ -12,11 +12,11 @@ devDependencies:
     specifier: 15.2.3
     version: 15.2.3(rollup@4.9.6)
   chai:
-    specifier: 5.0.0
-    version: 5.0.0
+    specifier: 5.0.3
+    version: 5.0.3
   chai-as-promised:
     specifier: 7.1.1
-    version: 7.1.1(chai@5.0.0)
+    version: 7.1.1(chai@5.0.3)
   concurrently:
     specifier: 8.2.2
     version: 8.2.2
@@ -749,23 +749,23 @@ packages:
     engines: {node: '>=14.16'}
     dev: true
 
-  /chai-as-promised@7.1.1(chai@5.0.0):
+  /chai-as-promised@7.1.1(chai@5.0.3):
     resolution: {integrity: sha512-azL6xMoi+uxu6z4rhWQ1jbdUhOMhis2PvscD/xjLqNMkv3BPPp2JyyuTHOrf9BOosGpNQ11v6BKv/g57RXbiaA==}
     peerDependencies:
       chai: '>= 2.1.2 < 5'
     dependencies:
-      chai: 5.0.0
+      chai: 5.0.3
       check-error: 1.0.2
     dev: true
 
-  /chai@5.0.0:
-    resolution: {integrity: sha512-HO5p0oEKd5M6HEcwOkNAThAE3j960vIZvVcc0t2tI06Dd0ATu69cEnMB2wOhC5/ZyQ6m67w3ePjU/HzXsSsdBA==}
+  /chai@5.0.3:
+    resolution: {integrity: sha512-wKGCtYv2kVY5WEjKqQ3fSIZWtTFveZCtzinhTZbx3/trVkxefiwovhpU9kRVCwxvKKCEjTWXPdM1/T7zPoDgow==}
     engines: {node: '>=12'}
     dependencies:
       assertion-error: 2.0.1
       check-error: 2.0.0
       deep-eql: 5.0.1
-      loupe: 3.0.1
+      loupe: 3.1.0
       pathval: 2.0.0
     dev: true
 
@@ -2461,8 +2461,8 @@ packages:
       - supports-color
     dev: true
 
-  /loupe@3.0.1:
-    resolution: {integrity: sha512-phbaE2fPsRe8cQ7Cy5Ze5p9JLmpiaqGT45RCUWYYjZgYPBoeC3vqrlYPj4BQ82ln60ZtM3Iq00PPC3FyUdS4Kw==}
+  /loupe@3.1.0:
+    resolution: {integrity: sha512-qKl+FrLXUhFuHUoDJG7f8P8gEMHq9NFS0c6ghXG1J0rldmZFQZoNVv/vyirE9qwCIhWZDsvEFd1sbFu3GvRQFg==}
     dependencies:
       get-func-name: 2.0.2
     dev: true
