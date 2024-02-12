@@ -12,11 +12,11 @@ devDependencies:
     specifier: 15.2.3
     version: 15.2.3(rollup@4.10.0)
   chai:
-    specifier: 5.0.3
-    version: 5.0.3
+    specifier: 5.1.0
+    version: 5.1.0
   chai-as-promised:
     specifier: 7.1.1
-    version: 7.1.1(chai@5.0.3)
+    version: 7.1.1(chai@5.1.0)
   concurrently:
     specifier: 8.2.2
     version: 8.2.2
@@ -749,17 +749,17 @@ packages:
     engines: {node: '>=14.16'}
     dev: true
 
-  /chai-as-promised@7.1.1(chai@5.0.3):
+  /chai-as-promised@7.1.1(chai@5.1.0):
     resolution: {integrity: sha512-azL6xMoi+uxu6z4rhWQ1jbdUhOMhis2PvscD/xjLqNMkv3BPPp2JyyuTHOrf9BOosGpNQ11v6BKv/g57RXbiaA==}
     peerDependencies:
       chai: '>= 2.1.2 < 5'
     dependencies:
-      chai: 5.0.3
+      chai: 5.1.0
       check-error: 1.0.2
     dev: true
 
-  /chai@5.0.3:
-    resolution: {integrity: sha512-wKGCtYv2kVY5WEjKqQ3fSIZWtTFveZCtzinhTZbx3/trVkxefiwovhpU9kRVCwxvKKCEjTWXPdM1/T7zPoDgow==}
+  /chai@5.1.0:
+    resolution: {integrity: sha512-kDZ7MZyM6Q1DhR9jy7dalKohXQ2yrlXkk59CR52aRKxJrobmlBNqnFQxX9xOX8w+4mz8SYlKJa/7D7ddltFXCw==}
     engines: {node: '>=12'}
     dependencies:
       assertion-error: 2.0.1
