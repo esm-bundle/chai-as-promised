@@ -21,8 +21,8 @@ importers:
         specifier: 5.1.1
         version: 5.1.1
       chai-as-promised:
-        specifier: 7.1.1
-        version: 7.1.1(chai@5.1.1)
+        specifier: 7.1.2
+        version: 7.1.2(chai@5.1.1)
       concurrently:
         specifier: 8.2.2
         version: 8.2.2
@@ -505,10 +505,10 @@ packages:
     resolution: {integrity: sha512-xlx1yCK2Oc1APsPXDL2LdlNP6+uu8OCDdhOBSVT279M/S+y75O30C2VuD8T2ogdePBBl7PfPF4504tnLgX3zfw==}
     engines: {node: '>=14.16'}
 
-  chai-as-promised@7.1.1:
-    resolution: {integrity: sha512-azL6xMoi+uxu6z4rhWQ1jbdUhOMhis2PvscD/xjLqNMkv3BPPp2JyyuTHOrf9BOosGpNQ11v6BKv/g57RXbiaA==}
+  chai-as-promised@7.1.2:
+    resolution: {integrity: sha512-aBDHZxRzYnUYuIAIPBH2s511DjlKPzXNlXSGFC8CwmroWQLfrW0LtE1nK3MAwwNhJPa9raEjNCmRoFpG0Hurdw==}
     peerDependencies:
-      chai: '>= 2.1.2 < 5'
+      chai: '>= 2.1.2 < 6'
 
   chai@5.1.1:
     resolution: {integrity: sha512-pT1ZgP8rPNqUgieVaEY+ryQr6Q4HXNg8Ei9UnLUrjN4IA7dvQC5JB+/kxVcPNDHyBcc/26CXPkbNzq3qwrOEKA==}
@@ -2713,7 +2713,7 @@ snapshots:
 
   camelcase@7.0.1: {}
 
-  chai-as-promised@7.1.1(chai@5.1.1):
+  chai-as-promised@7.1.2(chai@5.1.1):
     dependencies:
       chai: 5.1.1
       check-error: 1.0.2
