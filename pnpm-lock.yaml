@@ -18,11 +18,11 @@ importers:
         specifier: 0.4.4
         version: 0.4.4(rollup@4.52.3)
       chai:
-        specifier: 6.1.0
-        version: 6.1.0
+        specifier: 6.2.0
+        version: 6.2.0
       chai-as-promised:
         specifier: 8.0.2
-        version: 8.0.2(chai@6.1.0)
+        version: 8.0.2(chai@6.2.0)
       concurrently:
         specifier: 9.2.1
         version: 9.2.1
@@ -583,8 +583,8 @@ packages:
     peerDependencies:
       chai: '>= 2.1.2 < 7'
 
-  chai@6.1.0:
-    resolution: {integrity: sha512-AMqnsoEd9fQwUrbFfq8DOSpF22Iyi3vIto3aUcyPal1jMTr7lLuI9FkrfuqucC/f7JHRZt9+m6Al/T76sTBXBA==}
+  chai@6.2.0:
+    resolution: {integrity: sha512-aUTnJc/JipRzJrNADXVvpVqi6CO0dn3nx4EVPxijri+fj3LUUDyZQOgVeW54Ob3Y1Xh9Iz8f+CgaCl8v0mn9bA==}
     engines: {node: '>=18'}
 
   chalk@4.1.2:
@@ -2251,12 +2251,12 @@ snapshots:
 
   camelcase@6.2.0: {}
 
-  chai-as-promised@8.0.2(chai@6.1.0):
+  chai-as-promised@8.0.2(chai@6.2.0):
     dependencies:
-      chai: 6.1.0
+      chai: 6.2.0
       check-error: 2.1.1
 
-  chai@6.1.0: {}
+  chai@6.2.0: {}
 
   chalk@4.1.2:
     dependencies:
